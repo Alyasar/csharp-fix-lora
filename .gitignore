@@ -1,0 +1,17 @@
+# Local Python environment
+.venv/
+# The cloned docs repos (thousands of files; anyone can re-clone them with the commands in the README)
+data/raw/
+# Build sandboxes (dotnet creates bin/obj folders here)
+sandbox/
+# Python and Jupyter caches
+__pycache__/
+.ipynb_checkpoints/
+# Editor settings
+.vscode/
+# Model files are on the Hugging Face Hub, never in git
+*.gguf
+*.safetensors
+# Secrets (we don't have any, but just in case)
+.env
+.streamlit/secrets.toml

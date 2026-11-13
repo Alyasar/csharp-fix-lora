@@ -1,0 +1,3 @@
+model,examples,compiles,faithful fix,exact,deleted code,returned broken,median changed lines
+base (Qwen2.5-Coder-1.5B),200,66%,46%,22%,16%,2%,2.0
+"fine-tuned (QLoRA, 25 min T4)",200,96%,94%,90%,3%,0%,0.0
